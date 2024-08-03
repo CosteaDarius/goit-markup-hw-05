@@ -539,3 +539,7 @@ body {
   border: 1px 0px 0px 0px;
   opacity: 0px;
 }
+
+.form {
+  display: flex;
+}
