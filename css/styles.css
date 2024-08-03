@@ -531,4 +531,5 @@ color: #ffffff;
 
 .subscribe-form {
   display: flex;
+  gap: 24px;
 }
