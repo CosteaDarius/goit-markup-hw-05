@@ -525,4 +525,10 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
+margin-bottom: 16px;
+color: #ffffff;
+}
+
+.form-container {
+  display: flex;
 }
