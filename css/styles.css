@@ -543,3 +543,7 @@ body {
 .form {
   display: flex;
 }
+
+.email {
+  gap: 24px;
+}
