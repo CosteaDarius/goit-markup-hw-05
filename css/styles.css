@@ -62,7 +62,6 @@ body {
 
 .header-box {
   border-bottom: 1px solid #e7e9fc;
-  max-width: 1440px;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -145,10 +144,6 @@ body {
 
 /* Main */
 
-.main-box {
-  max-width: 1440px;
-}
-
 .title-hero {
   display: flex;
   background-image: linear-gradient(
@@ -156,7 +151,6 @@ body {
       rgba(46, 47, 66, 0.7)
     ),
     url(/images/people-ofice.jpg);
-  max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -272,9 +266,8 @@ body {
 .team-box {
   background-color: var(--white);
   border-radius: 0 0 4px 4px; /* Rotunjirea colțurilor */
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-              0px 1px 1px rgba(46, 47, 66, 0.16), 
-              0px 2px 1px rgba(46, 47, 66, 0.08); /* Umbră */
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); /* Umbră */
   text-align: center;
 }
 
@@ -301,7 +294,6 @@ body {
   color: #2e2f42;
   text-align: center;
   margin-bottom: 72px;
-  margin-top: 120px;
 }
 
 /* Stilul numelui membrului echipei */
@@ -380,6 +372,12 @@ body {
 
 .portofolio {
   margin-bottom: 72px;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-align: center;
 }
 
 .portofolio-list {
@@ -396,7 +394,8 @@ body {
 }
 
 .portofolio-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .hover-change-div {
@@ -438,7 +437,6 @@ body {
   display: flex;
   background-color: #2e2f42;
   padding: 100px 0;
-  max-width: 1440px;
 }
 
 .icon-footer {
@@ -517,4 +515,25 @@ body {
 
 .link-social i {
   font-size: 20px;
+}
+
+/* Subscribe Footer */
+
+.subscribe {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.subscribe-footer-container {
+  width: 453px;
+  height: 80px;
+  top: 100px;
+  left: 80px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
 }
