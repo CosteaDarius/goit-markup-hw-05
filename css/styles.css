@@ -518,32 +518,3 @@ body {
 }
 
 /* Subscribe Footer */
-
-.subscribe {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;
-  text-align: left;
-  color: #ffffff;
-}
-
-.subscribe-footer-container {
-  width: 453px;
-  height: 80px;
-  top: 100px;
-  left: 80px;
-  gap: 0px;
-  border-radius: 4px 0px 0px 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-}
-
-.form {
-  display: flex;
-}
-
-.email {
-  gap: 24px;
-}
