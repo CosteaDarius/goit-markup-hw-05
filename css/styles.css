@@ -750,3 +750,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.modal-form-checkbox:checked + .checkbox-text .checkbox-span {
+  
+}
