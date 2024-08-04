@@ -1,3 +1,19 @@
+body {
+  font-family: 'Roboto', sans-serif;
+
+  color: var(--text);
+  background-color: var(--white);
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+body.show-modal .modal {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: initial;
+}
+
 h1,
 h2,
 h3,
@@ -751,7 +767,7 @@ body {
   overflow: hidden;
 }
 
-.modal-form-checkbox:checked + .checkbox-text .checkbox-span {
+.input-policy:checked + .label-policy .span-modal {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
