@@ -713,3 +713,9 @@ body {
 .textarea-label:focus {
   border-color: #4D5AE5;
 }
+
+.policy {
+  margin-bottom: 24px;
+}
+
+.input-policy[.visually-hidden]
