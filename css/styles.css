@@ -617,7 +617,8 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .exit-button:hover {
@@ -642,7 +643,7 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
   margin-bottom: 16px;
 }
 
@@ -651,10 +652,12 @@ body {
 }
 
 .label-name {
-font-size: 12px;
-font-weight: 400;
-line-height: 14px;
-letter-spacing: 0.04em;
-text-align: left;
-color: rgba(142, 143, 153, 1);
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: rgba(142, 143, 153, 1);
+  margin-bottom: 4px;
 }
