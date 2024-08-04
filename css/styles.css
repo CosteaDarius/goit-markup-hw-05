@@ -752,5 +752,13 @@ body {
 }
 
 .modal-form-checkbox:checked + .checkbox-text .checkbox-span {
-  
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+}
+
+.span-modal {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
 }
