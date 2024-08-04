@@ -622,6 +622,11 @@ body {
 
 .exit-button:hover {
   background-color: #404bbf;
+  border: none;
+}
+
+.exit-button:focus {
+  border: none;
 }
 
 .title-modala {
