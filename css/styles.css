@@ -690,10 +690,24 @@ body {
   fill: #4D5AE5;
 }
 
-.div-modal-text {
+.paragraf-modal {
   margin-bottom: 16px
 }
 
-.paragraf-modal {
-  margin-bottom: 16px
+.textarea-label {
+  width: 360px;
+height: 120px;
+top: 216px;
+gap: 0px;
+border-radius: 4px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+}
+
+.placeholder {
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.04em;
+text-align: left;
 }
