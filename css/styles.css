@@ -591,15 +591,9 @@ color: #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
+  translate: (-50%, -50%);
 }
 
 .title-modala {
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: center;
-padding-top: 72px;
-padding-left: 24px;
-padding-right: 24px;
+
 }
