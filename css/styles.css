@@ -645,3 +645,17 @@ body {
   color: #2E2F42;
   margin-bottom: 16px;
 }
+
+.form-div {
+  margin-bottom: 8px;
+}
+
+.label-name {
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.04em;
+text-align: left;
+color: rgba(142, 143, 153, 1);
+
+}
